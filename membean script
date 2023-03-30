@@ -71,7 +71,7 @@ function test() {
 	if(type == "click") {//waits time to click
 		no_content = 0
 		let rand = Math.floor(Math.random() * (26 - 10)) + 10;
-        console.log("Be patient retard, answered in", rand, "seconds");
+        console.log("Be patient retard, answering in", rand, "seconds");
         rand = rand * 1000;
         interval.click = setTimeout(press, rand);
 	} else if (type == "test") {//starts testing after 2 seconds
